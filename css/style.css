@@ -1,0 +1,11 @@
+#repos .repo-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#repos .repo-description{
+    font-style: italic;
+}
+#repos .repo-view{
+    text-decoration: underline;
+    box-shadow: none;
+}
