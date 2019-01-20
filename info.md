@@ -126,17 +126,17 @@ public function form( $instance ){
 
     <p>
         <label for="<?php echo $this->get_field_id('title') ?>"><?php _e('Title', 'wpgithubrepos') ?></label>
-        <input type="text" class="widefat" id="<?php echo $this->get_field_id('title') ?>" name="<?php echo $this->get_field_id('title') ?>" value="<?php echo esc_html($title) ?>">
+        <input type="text" class="widefat" id="<?php echo $this->get_field_id('title') ?>" name="<?php echo $this->get_field_name('title') ?>" value="<?php echo esc_html($title) ?>">
     </p>
 
     <p>
         <label for="<?php echo $this->get_field_id('username') ?>"><?php _e('Username', 'wpgithubrepos') ?></label>
-        <input type="text" class="widefat" id="<?php echo $this->get_field_id('username') ?>" name="<?php echo $this->get_field_id('username') ?>" value="<?php echo esc_html($username) ?>">
+        <input type="text" class="widefat" id="<?php echo $this->get_field_id('username') ?>" name="<?php echo $this->get_field_name('username') ?>" value="<?php echo esc_html($username) ?>">
     </p>
 
     <p>
         <label for="<?php echo $this->get_field_id('count') ?>"><?php _e('Count', 'wpgithubrepos') ?></label>
-        <input type="text" class="widefat" id="<?php echo $this->get_field_id('count') ?>" name="<?php echo $this->get_field_id('count') ?>" value="<?php echo esc_html($count) ?>">
+        <input type="text" class="widefat" id="<?php echo $this->get_field_id('count') ?>" name="<?php echo $this->get_field_name('count') ?>" value="<?php echo esc_html($count) ?>">
     </p>
 
     <?php
