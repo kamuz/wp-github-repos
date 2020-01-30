@@ -209,6 +209,8 @@ public function widget( $args, $instance ){
     echo $args['after_widget'];
 }
 
+//..
+
 /**
  * Show GitHub Repos
  */
